@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large local datasets
+data/raw/
+data/silver/
+data/gold/
+
+# Secrets / credentials
+.env
+*.pem
+*.key
+credentials*
+.aws/
+
+# Tableau temporary files
+*.hyper
+
+# Tableau temporary/backup files
+*.twbr
+.~*
